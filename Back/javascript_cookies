@@ -1,0 +1,33 @@
+
+
+
+    
+    '''import Cookies from 'js-cookie';
+
+const csrfToken = Cookies.get('csrftoken');
+
+
+///////////////////////////////////////////
+
+fetch(url, {
+    method: 'POST',
+    headers: {
+        'Content-Type': 'application/json',
+        'X-CSRFToken': csrfToken
+    },
+    body: JSON.stringify(data)
+})
+/////////////////////////////////////////////
+this is for the javascript
+
+//////////////////////////////////////////////////
+settings.py
+CORS_ALLOW_HEADERS = [
+    "Content-Type",
+    "csrf-token",
+    "Authorization",
+    ...
+]
+CSRF_HEADER_NAME = "HTTP_CSRF_TOKEN"
+
+'''
